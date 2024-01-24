@@ -1,0 +1,739 @@
+@charset "utf-8";
+/*1.カラー
+  #B71B26　#223E69　#FFFFFF　#333333
+  2.フォント
+  Google Fonts
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Serif JP', serif;
+  3.リンクのマウスオーバー時の変化：各自で任意のスタイルを適用する
+  4.フォームパーツをフォーカスした時の変化：各自で任意のスタイルを適用する
+*/
+body {
+    width: 375px;
+    margin: 0 auto;
+}
+header {
+    height: 52px;
+}
+header h1 {
+    padding: 4px 0px 3px 8px;
+}
+.menu2 { display:none;}
+.coplog {
+  line-height: 2;
+}
+.fttext,.q001,.q002,.a001,.a002 {
+    text-transform: capitalize;
+}
+ul {
+    text-align: center;
+}
+.topimg { 
+    width: 375px;
+    height:480px;
+    margin-bottom: 55px;
+    overflow: hidden;
+    position: relative;
+}
+.topimgs {
+  position: absolute;
+  left: -244px;
+  bottom: -14px;
+}
+.title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.subtitlein {
+  max-width: 351px;
+  text-align: center;
+  margin: 0 auto 22px;
+}
+.stline {
+  display: flex;
+  justify-content: center;
+}
+.subtitle,.linebr,.linebr02 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+.subtitle {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 12px;
+  padding: 0 8px 0 8px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+.linebr {
+  text-decoration: line-through 1px #333333 solid;
+  width: 60.5px;
+}
+.text01 {
+    font-family: 'Noto Sans JP', sans-serif;
+    max-height: 20px;
+    font-size: 20px;
+    font-weight: 500; 
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+}
+.text02 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.1em;
+    text-align: justify;
+    padding: 0 12px 0 12px;
+}
+.conseptSec ul {
+    margin-bottom: 80px;
+}
+.servicein img {
+    margin-bottom: 16px;
+}
+.morebox { 
+    width: 351px;
+    height: 14px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.moretext {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #333333;
+    padding: 0 3px;
+}
+.serviceSec {
+  margin-bottom: 80px;
+}
+.sankaku1 {
+    padding: 20px 0 0 0;
+}
+.flowSec {
+    background-color: rgba(34, 62, 104,0.05);
+    padding: 12px 0 18px 0;
+    margin-bottom: 80px;
+}
+.flowlist {
+    padding: 0px 37.5px;
+}
+.flowSec ul li {
+    text-align: center;
+}
+.subseko,.tit2 {
+    color: #B71B26;
+}
+.linebr02 {
+    text-decoration: line-through 1px #b71B26 solid;
+    width: 60.5px;
+}
+.text03 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 6px 0 6px 0;
+}
+.arrow {
+    line-height: 0px;
+    padding: 7.5px 0 7.5px 0;
+}
+.aw1 img{
+    opacity: 0.6;
+}
+.aw2 img{
+    opacity: 0.7;
+}
+.aw3 img{
+    opacity: 0.8;
+}
+.aw4 img{
+    opacity: 0.9;
+}
+.qa {
+    margin: 0 12px 80px 12px;
+}
+.q1001,.q1002,.a1001,.a1002 {
+    width: 351px;
+    display: flex;
+    margin-bottom: 12px;
+}
+.q001,.q002 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding: 4px 0;
+}
+.a001,.a002 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    color: #ffffff;
+    background-color: #b71b26;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding: 4px 0;
+}
+.a01,.a02,.q01,.q02 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    width: 315px;
+    padding: 6px 0 10px 7px;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+.inputSec {
+    width: 375px;
+    background-color: rgba(51, 51, 51,0.1);
+    margin-bottom: 80px;
+    padding: 20px 12px 12px 12px;
+    text-align: center;
+}
+.inputSec div {
+    margin-bottom: 15px;
+}
+input[type="text"],input[type="email"] {
+    background-color: #ffffff;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 8px;
+}
+textarea {
+    background-color: #ffffff;
+    height: 120px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.ubin {
+    width: 140px;
+    display: flex;
+} 
+.ue {
+    width: 351px;
+    max-height: 18px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.formtitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    align-self: center;
+    margin: 0 2px 4px 0;
+}
+.hissu {
+    flex-basis: 40px;
+    align-self: center;
+    background-color: #b71b26;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    border: 1px #b71b26 solid;
+    border-radius: 20px 20px 20px 20px;
+    padding: 3px 0 3px 0;
+}
+.radio {
+    display: flex;
+    width: 186px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.inputbox {
+    width: 200px;
+    height: 48px;
+    margin: 0 auto;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="submit"] {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+.inputboxin {
+    height: 16px;
+}
+.sankaku2 img {
+    padding: 0 0 4px 0;
+}
+   input[type="radio"] {
+    width: 16px;
+    height: 16px;
+   }
+input[type="submit"]:hover {
+    color: #B71B26;
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: .3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0ms;
+}
+.gotop {
+    width: 351px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.gotop div {
+    background-color: #333333;
+    width: 46px;
+    height: 46px;
+    text-align: center;
+}
+.gotop a img {
+    padding: 14px 7px 14px 7px;
+}
+footer {
+    width: 375px;
+    height: 45px;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+footer ul {
+    width: 244px;
+    height: 45px;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copc {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px #ffffff solid;
+    border-radius: 9px;
+    letter-spacing: 0.1em;
+    margin: 0 4px 0 0;
+    padding: 0 3px 1px 3px;
+}
+.fttext {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.gMenu {
+    position: fixed;
+    top: 0;
+    width: 375px;
+    z-index: 99;
+}
+  .gMenu .menu-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 12px; 
+    padding-top: 5px;
+    height: 22px;
+}
+  .gMenu .menu-icon .navicon {
+    background: #ffc107;
+    display: block;
+    height: 2px;
+    width: 28px;
+    position: relative;
+    transition: background .2s ease-in;
+}
+  .gMenu .menu-icon .navicon::before,
+  .gMenu .menu-icon .navicon::after {
+    background: #ffc107;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .4s ease-out;
+    width: 100%;
+}
+  .gMenu .menu-icon .navicon::before {top: 10px;}
+  .gMenu .menu-icon .navicon::after {top: -10px;}
+  .gMenu .menu {
+    background-color: rgba(255,255,255,0.0);
+    overflow: hidden;
+    max-height: 52px;
+    transition: all .7s ease-in;
+    text-align: center;
+}
+  .gMenu .menu li:first-of-type {
+    padding-top: 50px;
+}
+  .gMenu .menu li a {
+    display: block;
+    padding: 18px 80px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  .gMenu .menu li a:hover {
+    background-color: rgb(33, 62, 105,0.4);
+}
+  .gMenu .menu-btn {
+    display: none;
+}
+  .gMenu .menu-btn:checked ~ .menu {
+    max-height: 544px;
+    background-color: rgba(255,255,255,0.9);
+    transition: all .7s ease-in;
+}
+  .gMenu .menu-btn:checked ~ .menu-icon .navicon
+   {background: transparent;}
+  .gMenu .menu-btn:checked ~ .menu-icon .navicon::before
+   {transform: rotate(-45deg);top: 0;}
+  .gMenu .menu-btn:checked ~ .menu-icon .navicon::after
+   {transform: rotate(45deg);top: 0;}
+  .gMenu .menu-icon {
+    top: 20px;
+}
+  .gMenu .menu-icon .navicon,
+  .gMenu .menu-icon .navicon::before,
+  .gMenu .menu-icon .navicon::after {
+    background: #333333;
+}
+  .menu {  
+    height: 544px;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 16px;
+    color: #333333;
+    padding: 20px 0 20px 0;
+}
+
+
+@media screen and (min-width:768px){
+  body {
+    width: 1366px;
+  }
+  header {
+    height: 80px;
+  }
+  .header {
+    background-color: #ffffff;
+    width: 1366px;
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: center;
+    padding: 0 0 20px 0;
+    z-index: 99;
+  }
+  h1 img { 
+    width: 444px;
+    padding: 24px 20px 5px 24px;
+  }
+  .gMenu {
+    display:none;
+  }
+  .menu2 { 
+    display: flex;
+    width: 629px;
+    justify-content: space-between;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+    padding: 30px 0 30px 0;
+    margin: 0 24px 0 0;
+  }
+  .menu2 li a:hover {
+    text-decoration: underline double #b71b26 2px;
+  }
+  .topimg{ 
+    width: 1366px;
+    height: 545px;
+    margin-bottom: 160px;
+    overflow: hidden;
+    position: relative;
+  }
+  .topimgs {
+    position: absolute;
+    left: 0px;
+    bottom: -165px;
+  }
+  .topimgs img {
+    width: 1366px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .title {
+    font-size: 42px;
+    margin-bottom: 16px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .text01 {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .text02 {
+    font-size: 16px;
+    padding: 0;
+    margin-bottom: 0px;
+  }
+  .conseptSec {
+    width: 1020px;
+    height: 238px;
+    margin: 0 auto 160px;
+  }
+  .serviceSec {
+    width: 1020px;
+    margin: 0 auto 160px;
+  }
+  .serviceSec .service {
+    width: 1020px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .moretext {
+    font-size: 16px;
+    padding: 0 3px;
+  }
+  .sankaku1 {
+    padding: 16px 0 0 0;
+  }
+  .service ul li {
+    width: 300px;
+  }
+  .serv01 img,.serv02 img,.serv03 img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .flowSec {
+    height: 498px;
+    background-color: rgba(34, 62, 104,0.05);
+    padding: 38px 0 0 0;
+    margin-bottom: 160px;
+    text-align: center;
+  }
+  .flowlist {
+    width: 920px;
+    margin: 0 auto;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+  }
+  .flowlist li {
+    width: 60px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+  }
+  .text03 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 60px;
+    padding: 0px 16px;
+  }
+  .flowlist .arrow img {
+    transform: rotate(-90deg); 
+    width: 60px;
+    height: 30px;
+    padding: 0 0px;   
+  }
+  .qa {
+    width: 1020px;
+    margin: 0 auto 200px;
+  }
+  .q1001,.q1002,.a1001,.a1002 {
+    width: 1020px;
+    display: flex;
+    margin-bottom: 12px;
+  }
+  .q001,.q002 {
+    font-size: 34px;
+    width: 52px;
+    height: 52px;
+    border-radius: 42px 42px 42px 42px;
+    text-align: center;
+    padding: 1px 2px 1px 3px;
+    margin-bottom: 18px;
+  }
+  .a001,.a002 {
+    font-size: 34px;
+    width: 52px;
+    height: 52px;
+    border-radius: 42px 42px 42px 42px;
+    text-align: center;
+    padding: 1px 2px 1px 3px;
+    margin-bottom: 100px;
+  }
+  .a01,.a02,.q01,.q02 {
+    font-size: 20px;
+    width: 960px;
+    padding: 15px 0 15px 8px;
+  }
+  .inputSec {
+    width: 1366px;
+    height: 1218px;
+    margin: 0 auto;
+  }
+  .input {
+    margin-bottom: 64px;
+  }
+  .inpform {
+    width: 1020px;
+    height: 1000px;
+    margin:  auto;
+    background-color: rgba(255, 255, 255,0.4);  
+    text-align: center;
+    padding: 36px 24px 36px 16px;
+  }
+  .inpform div {
+    display: flex;
+    align-items: center;
+  }
+  .ue {
+    flex-basis: 304px;
+   }
+  .form8 .ue {
+    flex-basis: 359px;
+   }
+  .form8 .ue .formtitle {
+    margin: 0 74px 0 0;
+   }
+  .form1 {
+    height: 24px;
+   }
+  .formtitle {
+    flex-basis: 249px;
+    font-size: 20px;
+    text-align: right;
+    margin: 0 2px 4px 0;
+  }
+  .hissu {
+    flex-basis: 55px;
+    font-size: 16px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 0 0;
+  }
+  .sita1 {
+    flex-basis: 664px;
+    text-align: left;
+    padding: 0 0 0 16px;
+  }
+  .sita2 {
+    flex-basis: 664px;
+    height: 52px;
+    padding: 0 0 0 16px;
+   }
+  .sita2 span {
+    width: 664px;
+   }
+  .sita4 {
+    flex-basis: 222px;
+    height: 52px;
+    padding: 0 0 0 16px;
+   }
+   .radio {
+    font-size: 20px;
+   }
+   input[type="radio"] {
+    width: 24px;
+    height: 24px;
+   }
+  input[type="text"],input[type="email"] {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 8px;
+   }
+  textarea {
+    height: 208px;
+    width: 664px;
+    margin-bottom: 8px;
+   }
+  .ubin {
+    width: 22px;
+   }
+  .radio {
+    display: flex;
+    width: 240px;
+    margin: 0 0;
+    justify-content: space-between;
+  }
+  .inputbox { 
+    width: 300px;     
+    height: 68px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .inputboxin {   
+    text-align: center;
+    flex-basis: 300px;
+    height: 21px;
+   }
+  input[type="submit"] {
+    font-size: 20px;
+   }
+  .sankaku2 img {
+    width: 9.5px;
+    padding: 0 0 2px 0;
+  }
+  .gotop {
+    width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 24px 0 0;
+  }
+  .gotop div {
+    background-color: #333333;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+  }
+  .gotop a img {
+    padding: 21px 14px 21px 14px;
+  }
+  footer {
+    width: 1366px;
+    height: 62px;
+    background-color: #333333;
+    color: #ffffff;
+  }
+  footer ul {
+    width: 281px;
+    height: 45px;
+  }
+  .copc {
+    margin: 0 4px 0 0;
+    padding: 1px 4px 2px 4px;
+  }
+  .fttext {
+    font-size: 14px;
+  }
+}
